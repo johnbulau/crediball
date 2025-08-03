@@ -1,0 +1,64 @@
+{
+  "check_interval": 300,
+  "tweets_per_check": 10,
+  "max_posts_per_day": 50,
+  "min_post_interval": 300,
+  "groq_model": "llama3-8b-8192",
+  "max_tweet_length": 280,
+  "here_we_go_accounts": ["FabrizioRomano", "David_Ornstein"],
+  "transfer_complete_emoji": "🚨TRANSFER COMPLETED🚨",
+  "bot_settings": {
+    "retweet_enabled": false,
+    "reply_enabled": false,
+    "quote_tweet_enabled": false,
+    "include_media": false
+  },
+  "content_filters": {
+    "min_engagement_threshold": 0,
+    "exclude_retweets": true,
+    "exclude_replies": true,
+    "football_keywords": [
+      "transfer", "signing", "contract", "goal", "match", "fixture",
+      "injury", "manager", "coach", "stadium", "league", "champion",
+      "tournament", "world cup", "euros", "premier league", "la liga",
+      "bundesliga", "serie a", "ligue 1", "champions league",
+      "europa league", "fifa", "uefa"
+    ],
+    "exclude_keywords": [
+      "american football", "nfl", "super bowl", "quarterback"
+    ]
+  },
+  "rate_limiting": {
+    "requests_per_minute": 10,
+    "requests_per_hour": 100,
+    "posts_per_hour": 5,
+    "cooldown_on_error": 60
+  },
+  "formatting": {
+    "use_emojis": true,
+    "max_emojis_per_tweet": 3,
+    "include_source_attribution": true,
+    "include_reliability_score": true,
+    "custom_prefixes": {
+      "transfer_complete": "🚨BREAKING🚨",
+      "here_we_go": "✅ - 🚨",
+      "rumor": "👀",
+      "official": "✅",
+      "injury": "🚑",
+      "goal": "⚽"
+    }
+  },
+  "ai_settings": {
+    "temperature": 0.7,
+    "max_tokens": 150,
+    "fallback_enabled": true,
+    "retry_attempts": 3,
+    "timeout_seconds": 30
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "bot.log",
+    "max_log_size_mb": 10,
+    "backup_count": 5
+  }
+}

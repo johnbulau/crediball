@@ -1,0 +1,5 @@
+aiohttp>=3.12.15
+groq>=0.30.0
+playwright>=1.54.0
+trafilatura>=2.0.0
+twscrape>=0.17.0

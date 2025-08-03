@@ -1,0 +1,109 @@
+{
+  "journalists": [
+    {
+      "username": "FabrizioRomano",
+      "reliability_score": 99.9,
+      "tier": "tier1",
+      "enabled": true,
+      "description": "Top football transfer expert, known for 'Here We Go' confirmations"
+    },
+    {
+      "username": "David_Ornstein",
+      "reliability_score": 99.5,
+      "tier": "tier1",
+      "enabled": true,
+      "description": "The Athletic football correspondent, highly reliable"
+    },
+    {
+      "username": "JamesRobsonES",
+      "reliability_score": 95.0,
+      "tier": "tier1",
+      "enabled": true,
+      "description": "Evening Standard Manchester United correspondent"
+    },
+    {
+      "username": "SkyKaveh",
+      "reliability_score": 92.0,
+      "tier": "tier1",
+      "enabled": true,
+      "description": "Sky Sports football reporter"
+    },
+    {
+      "username": "JacobSteinberg",
+      "reliability_score": 90.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Guardian football correspondent"
+    },
+    {
+      "username": "SamiMokbel81",
+      "reliability_score": 88.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Daily Mail football correspondent"
+    },
+    {
+      "username": "TeleFootball",
+      "reliability_score": 85.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Telegraph football"
+    },
+    {
+      "username": "ChrisWheatley_",
+      "reliability_score": 82.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Football.London Arsenal correspondent"
+    },
+    {
+      "username": "Matt_Law_DT",
+      "reliability_score": 88.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Daily Telegraph football correspondent"
+    },
+    {
+      "username": "TheAthleticUK",
+      "reliability_score": 90.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "The Athletic UK football coverage"
+    },
+    {
+      "username": "SkySportsNews",
+      "reliability_score": 85.0,
+      "tier": "tier2",
+      "enabled": true,
+      "description": "Sky Sports News official account"
+    },
+    {
+      "username": "SunFootball",
+      "reliability_score": 20.0,
+      "tier": "tier4",
+      "enabled": true,
+      "description": "The Sun football coverage - low reliability"
+    },
+    {
+      "username": "DailyMailUK",
+      "reliability_score": 35.0,
+      "tier": "tier3",
+      "enabled": true,
+      "description": "Daily Mail - moderate reliability"
+    },
+    {
+      "username": "MirrorFootball",
+      "reliability_score": 30.0,
+      "tier": "tier3",
+      "enabled": true,
+      "description": "Daily Mirror football coverage"
+    },
+    {
+      "username": "GiveMeSport",
+      "reliability_score": 45.0,
+      "tier": "tier3",
+      "enabled": true,
+      "description": "GiveMeSport football content"
+    }
+  ]
+}
